@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="generator" content="Scirra Construct">
+    <meta name="author" content="angelo">
+    <title>BunnyLand</title>
+    <script>
+        // Version locale simplifiée pour remplacer l'ancienne liaison Google Analytics distante
+        function gtag(){dataLayer.push(arguments)}
+        window.dataLayer=window.dataLayer||[];
+        gtag("js",new Date());
+    </script>
+    <link rel="stylesheet" href="landstyle.css" type="text/css">
+</head>
+<body>
+    <script>
+        if (location.protocol.substr(0, 4) === "file") {
+            alert("Les fonctionnalités du jeu seront bloquées par le navigateur si vous l'ouvrez en double-cliquant sur le fichier. Vous devez utiliser un serveur local (ex: python -m http.server).");
+        }
+    </script>
+    <noscript>
+        <div id="notSupportedWrap">
+            <h2 id="notSupportedTitle">This content requires JavaScript</h2>
+            <p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
+        </div>
+    </noscript>
+    <script src="supportland.js"></script>
+    <script src="offland.js" type="module"></script>
+    <script src="mainland.js" type="module"></script>
+    <script src="landsw.js" type="module"></script>
+    <script src="api.js"></script>
+</body>
+</html>
